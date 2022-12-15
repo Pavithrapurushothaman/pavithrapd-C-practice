@@ -1,0 +1,10 @@
+Hello World with a new line
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    cout<<"Hello World...!";
+    cout<<"\nHello World...!";
+    return 0;
+}
