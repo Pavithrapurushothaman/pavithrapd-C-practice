@@ -1,0 +1,28 @@
+Write a program to find which number is greatest among two numbers.
+
+Input Format:
+
+Input consists of two integers.
+
+Output Format:
+
+Output consists of greater number.
+
+#include<iostream>
+#include<cmath>
+using namespace std;
+
+int main()
+{
+    int a,b;
+    cin >> a >> b;
+    if(a>b)
+    {
+        cout << a << "\t" <<"is greater";
+    }
+    else
+    {
+        cout << b << "\t" <<"is greater";
+    }
+    return 0;
+}
